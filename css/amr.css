@@ -481,7 +481,7 @@ ul {
     color: #777;
 }
 .features a{
-    padding: 20px 50px;
+    padding: 10px 30px;
     display: block;
     border: 1px solid transparent;
     width: fit-content;
@@ -529,7 +529,53 @@ ul {
 }
 /* End Features */
 
-
+/* Start Testimonials  */
+.testimonials {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    background-color: var(--background-section);
+}
+.testimonials .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    gap: 40px;
+}
+.testimonials .box{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px #b5b4b7;
+    position: relative;
+}
+.testimonials .box img{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    right: -10px;
+    border-radius: 50%;
+    border: 10px solid var(--background-section);
+}
+.testimonials h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.testimonials span{
+    line-height: 1.7;
+    color: #777;
+    margin-bottom: 10px;
+    display: block;
+}
+.testimonials .rate .filled {
+    color: #ffc107;
+}
+.testimonials p{
+    line-height: 1.7;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+/* End Testimonials  */
 /* Start Animations */
 @keyframes up-and-down {
     0%, 100% {
