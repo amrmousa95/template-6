@@ -263,12 +263,16 @@ ul {
     align-items: center;
     padding-bottom: 100px;
 }
+
 .landing .text {
     flex: 1;
 }
 @media (max-width:991px) {
     .landing .text {
         text-align: center;
+    }
+    .landing .container {
+        height: 300px;
     }
 }
 .landing .text p {
