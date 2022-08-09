@@ -275,6 +275,9 @@ ul {
         height: 300px;
     }
 }
+.landing .text h1{
+    color: var(--main-color);
+}
 .landing .text p {
     color: #605f5f;
     line-height: 1.7;
