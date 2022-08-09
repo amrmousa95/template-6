@@ -992,7 +992,7 @@ flex: 1;
 .plans .container{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
-    gap: 40px;
+    gap: 30px;
 }
 .plans .box{
     background-color: white;
@@ -1001,7 +1001,7 @@ flex: 1;
     z-index: 1;
     transition: var(--main-transition);
     text-align: center;
-    overflow: hidden; 
+    overflow: hidden;
 }
 .plans .box::before,
 .plans .box::after{
@@ -1100,7 +1100,6 @@ flex: 1;
 .plans .box:hover button{
     color: white;
     background-color: var(--main-color);
-    font-size: 17px;
 }
 /* End Plans  */
 
